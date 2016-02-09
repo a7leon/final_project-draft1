@@ -9,6 +9,7 @@ body {
 
 
 section {
+	/* Nice use of percentages for the width! */
 	width:70%;
 	padding:10%;
 	margin:auto;
@@ -19,6 +20,10 @@ section {
 
 #namezone {
 	position:absolute;
+	/* 
+	 Relative is not a valid value for width.  You can either set a px, %, or "auto".
+	 Check out: http://www.w3schools.com/cssref/pr_dim_width.asp
+	*/
 	width:relative;
 	padding:1%;
 	font-size: 1.25em;
