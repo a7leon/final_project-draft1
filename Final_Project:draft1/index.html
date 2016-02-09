@@ -1,7 +1,17 @@
 <!DOCTYPE html>
+
+<!-- Your <html> start tag should be immediately after your doctype declaration -->
+
+<!-- This meta tag is great, but it should be inside of your <head> tag below -->
  <meta charset="UTF-8">
 
+<!-- 
+  You do not need the profile attribute in your head tag; that never actually gets used. 
+  You can actually delete this line since you are starting your head tag below.
+-->
 <head profile="http://www.w3.org/2005/10/profile">
+
+<!-- Nice find!!  This should go inside of your <head> tag below -->
 <link rel="icon" 
       type="image/png" 
       href="images/anim_cone.gif" />
@@ -15,11 +25,13 @@
 
         <link href="css/main.css" type="text/css" rel="stylesheet" media="all">
 
+        <!-- Nice find!  We'll go over this tag a little more in class tonight -->
         <meta name="viewport" content="width=702">
 </head>
 
 <body> 
 
+<!-- Watch your indenting here. It will make your code a bunch easier to read and follow -->
 <header>
 <div id="namezone"> Alexandra de Leon </div>
 </header>
@@ -57,6 +69,10 @@
 
 	<section>
 		
+      <!-- 
+        Nice find with the "onmouseover" attribute.  When we start getting into working on the javascript
+        for final projects, I would love to see that functionality move into your JS file.
+      -->
 			<img class="display" src="images/FLOATINGPLANTE.gif" alt="placeholdergif" onmouseover="this.style.visibility = 'hidden'; " align="middle">
 	
 
@@ -67,3 +83,5 @@
 
 
 </body>
+
+<!-- Don't forget to close your <html> tag down here -->
